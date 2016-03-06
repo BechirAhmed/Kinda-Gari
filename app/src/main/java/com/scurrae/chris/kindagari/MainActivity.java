@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
         // specify adapter
-        mAdapter = new MyAdapter(myDataset);
+        mAdapter = new MyAdapter(my);
         mRecyclerView.setAdapter(mAdapter);
     }
 }
