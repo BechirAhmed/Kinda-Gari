@@ -5,15 +5,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:src="@drawable/merc_logo"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/ttlbrands"
+            android:text="@string/brandtoyota"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal" />
 
@@ -23,11 +19,11 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="310dp"
-                android:src="@drawable/splash"/>
+                android:src="@drawable/toyota_camry"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ISUZU"
+                android:text="Toyota Camry"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
@@ -39,11 +35,11 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="310dp"
-                android:src="@drawable/splash"/>
+                android:src="@drawable/toyota_highlander"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="MERCEDES"
+                android:text="Toyota Highlander"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
@@ -55,27 +51,11 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="310dp"
-                android:src="@drawable/splash"/>
+                android:src="@drawable/sedan"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="NISSAN"
-                android:textSize="30sp"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:layout_gravity="bottom"/>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="350dp">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="310dp"
-                android:src="@drawable/splash"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TOYOTA"
+                android:text="Toyota Sedan"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"

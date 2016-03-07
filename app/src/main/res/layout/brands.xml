@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ISUZU"
+                android:text="@string/brandisuzu"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="MERCEDES"
+                android:text="@string/brandbenz"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
@@ -56,7 +56,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="NISSAN"
+                android:text="@string/brandnissan"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
@@ -72,7 +72,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TOYOTA"
+                android:text="@string/brandtoyota"
                 android:textSize="30sp"
                 android:gravity="center_horizontal"
                 android:layout_marginTop="20dp"
