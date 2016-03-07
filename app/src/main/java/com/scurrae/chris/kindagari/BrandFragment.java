@@ -14,6 +14,7 @@ import android.view.WindowManager;
  * Created by chris on 3/7/16.
  */
 public class BrandFragment extends Fragment{
+    public BrandFragment(){}
 
     @Nullable
     @Override
@@ -27,7 +28,7 @@ public class BrandFragment extends Fragment{
 //            View view = inflater.inflate(R.layout.brand_l, container, false);
 //            return view;
 //        }
-        View view = inflater.inflate(R.layout.brand_l, container, false);
+        View view = inflater.inflate(R.layout.brands, container, false);
         return view;
     }
 }
